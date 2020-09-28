@@ -1,0 +1,368 @@
+[13:25:23][DEBUG](LoginDao.java:27)-kim
+[13:25:23][DEBUG](LoginDao.java:28)-kim123
+[13:25:23][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[13:27:23][DEBUG](LoginDao.java:27)-kim
+[13:27:23][DEBUG](LoginDao.java:28)-kim123
+[13:27:23][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[13:27:26][DEBUG](BoardService.java:164)-kim
+[13:28:58][DEBUG](LoginDao.java:27)-kim
+[13:28:58][DEBUG](LoginDao.java:28)-kim123
+[13:28:58][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[13:29:02][DEBUG](BoardService.java:164)-kim
+[13:45:02][DEBUG](LoginDao.java:27)-kim
+[13:45:02][DEBUG](LoginDao.java:28)-kim123
+[13:45:02][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[13:45:07][DEBUG](BoardService.java:164)-kim
+[15:08:13][DEBUG](LoginDao.java:27)-kim
+[15:08:13][DEBUG](LoginDao.java:28)-kim123
+[15:08:13][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:08:17][DEBUG](BoardService.java:161)-kim
+[15:08:17][ERROR](BoardDao.java:214)-checkLoginException
+org.postgresql.util.PSQLException: No value specified for parameter 1.
+	at org.postgresql.core.v3.SimpleParameterList.checkAllParametersSet(SimpleParameterList.java:275)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:307)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at kr.co.icanman.dao.BoardDao.getuserCommentList(BoardDao.java:205)
+	at kr.co.icanman.service.BoardService.getuserCommentList(BoardService.java:215)
+	at org.apache.jsp.boardController_jsp._jspService(boardController_jsp.java:173)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[15:08:17][ERROR](BoardService.java:217)-getuserCommentListerror
+java.lang.NullPointerException
+	at kr.co.icanman.dao.BoardDao.getuserCommentList(BoardDao.java:218)
+	at kr.co.icanman.service.BoardService.getuserCommentList(BoardService.java:215)
+	at org.apache.jsp.boardController_jsp._jspService(boardController_jsp.java:173)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[15:09:45][DEBUG](LoginDao.java:27)-kim
+[15:09:45][DEBUG](LoginDao.java:28)-kim123
+[15:09:45][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:09:48][DEBUG](BoardService.java:161)-kim
+[15:09:55][DEBUG](BoardService.java:161)-kim
+[15:12:29][DEBUG](LoginDao.java:27)-kim
+[15:12:29][DEBUG](LoginDao.java:28)-kim123
+[15:12:29][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:12:31][DEBUG](BoardService.java:161)-kim
+[15:12:34][DEBUG](BoardService.java:161)-kim
+[15:12:35][ERROR](BoardDao.java:216)-checkLoginException
+org.postgresql.util.PSQLException: The column name username was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+	at kr.co.icanman.dao.BoardDao.getuserCommentList(BoardDao.java:212)
+	at kr.co.icanman.service.BoardService.getuserCommentList(BoardService.java:215)
+	at org.apache.jsp.boardController_jsp._jspService(boardController_jsp.java:173)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[15:12:35][ERROR](BoardService.java:217)-getuserCommentListerror
+org.postgresql.util.PSQLException: The column name username was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+	at kr.co.icanman.dao.BoardDao.getuserCommentList(BoardDao.java:212)
+	at kr.co.icanman.service.BoardService.getuserCommentList(BoardService.java:215)
+	at org.apache.jsp.boardController_jsp._jspService(boardController_jsp.java:173)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[15:13:09][DEBUG](LoginDao.java:27)-kim
+[15:13:09][DEBUG](LoginDao.java:28)-kim123
+[15:13:09][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:13:14][DEBUG](BoardService.java:161)-kim
+[15:13:14][ERROR](BoardDao.java:216)-checkLoginException
+org.postgresql.util.PSQLException: ERROR: column "username" does not exist
+  Position: 21
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at kr.co.icanman.dao.BoardDao.getuserCommentList(BoardDao.java:206)
+	at kr.co.icanman.service.BoardService.getuserCommentList(BoardService.java:215)
+	at org.apache.jsp.boardController_jsp._jspService(boardController_jsp.java:173)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[15:13:14][ERROR](BoardService.java:217)-getuserCommentListerror
+java.lang.NullPointerException
+	at kr.co.icanman.dao.BoardDao.getuserCommentList(BoardDao.java:220)
+	at kr.co.icanman.service.BoardService.getuserCommentList(BoardService.java:215)
+	at org.apache.jsp.boardController_jsp._jspService(boardController_jsp.java:173)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[15:14:20][DEBUG](LoginDao.java:27)-kim
+[15:14:20][DEBUG](LoginDao.java:28)-kim123
+[15:14:20][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:14:21][DEBUG](BoardService.java:161)-kim
+[15:14:24][DEBUG](BoardService.java:161)-kim
+[15:15:21][DEBUG](LoginDao.java:27)-kim
+[15:15:21][DEBUG](LoginDao.java:28)-kim123
+[15:15:21][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:15:24][DEBUG](BoardService.java:161)-kim
+[15:52:16][DEBUG](LoginDao.java:27)-kim
+[15:52:16][DEBUG](LoginDao.java:28)-kim123
+[15:52:16][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:52:20][DEBUG](BoardService.java:161)-kim
+[15:53:50][DEBUG](LoginDao.java:27)-kim
+[15:53:50][DEBUG](LoginDao.java:28)-kim123
+[15:53:50][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:53:53][DEBUG](BoardService.java:161)-kim
+[15:54:46][DEBUG](LoginDao.java:27)-kim
+[15:54:46][DEBUG](LoginDao.java:28)-kim123
+[15:54:46][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:54:49][DEBUG](BoardService.java:161)-kim
+[15:55:30][DEBUG](LoginDao.java:27)-kim
+[15:55:30][DEBUG](LoginDao.java:28)-kim123
+[15:55:30][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:55:34][DEBUG](BoardService.java:161)-kim
+[15:56:08][DEBUG](LoginDao.java:27)-kim
+[15:56:08][DEBUG](LoginDao.java:28)-kim123
+[15:56:08][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:56:11][DEBUG](BoardService.java:161)-kim
+[15:57:13][DEBUG](LoginDao.java:27)-kim
+[15:57:13][DEBUG](LoginDao.java:28)-kim123
+[15:57:13][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:57:16][DEBUG](BoardService.java:161)-kim
+[15:58:56][DEBUG](LoginDao.java:27)-kim
+[15:58:56][DEBUG](LoginDao.java:28)-kim123
+[15:58:56][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:58:59][DEBUG](BoardService.java:161)-kim
+[16:05:21][DEBUG](LoginDao.java:27)-kim
+[16:05:21][DEBUG](LoginDao.java:28)-kim123
+[16:05:21][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:05:23][DEBUG](BoardService.java:161)-kim
+[16:10:33][DEBUG](LoginDao.java:27)-kim
+[16:10:33][DEBUG](LoginDao.java:28)-kim123
+[16:10:33][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:10:35][DEBUG](BoardService.java:161)-kim
+[16:11:22][DEBUG](LoginDao.java:27)-kim
+[16:11:22][DEBUG](LoginDao.java:28)-kim123
+[16:11:22][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:11:24][DEBUG](BoardService.java:161)-kim
+[16:11:25][DEBUG](BoardService.java:161)-kim
+[16:11:50][DEBUG](LoginDao.java:27)-kim
+[16:11:50][DEBUG](LoginDao.java:28)-kim123
+[16:11:50][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:22:00][DEBUG](LoginDao.java:27)-kim
+[16:22:00][DEBUG](LoginDao.java:28)-kim123
+[16:22:00][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:23:21][DEBUG](LoginDao.java:27)-kim
+[16:23:21][DEBUG](LoginDao.java:28)-kim123
+[16:23:21][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:23:54][DEBUG](LoginDao.java:27)-kim
+[16:23:54][DEBUG](LoginDao.java:28)-kim123
+[16:23:54][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:24:36][DEBUG](LoginDao.java:27)-kim
+[16:24:36][DEBUG](LoginDao.java:28)-kim123
+[16:24:36][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:26:23][DEBUG](LoginDao.java:27)-kim
+[16:26:23][DEBUG](LoginDao.java:28)-kim123
+[16:26:23][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:28:06][DEBUG](LoginDao.java:27)-kim
+[16:28:06][DEBUG](LoginDao.java:28)-kim123
+[16:28:06][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:28:09][DEBUG](BoardService.java:161)-kim
+[16:33:40][DEBUG](LoginDao.java:27)-kim
+[16:33:40][DEBUG](LoginDao.java:28)-kim123
+[16:33:40][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:33:43][DEBUG](BoardService.java:161)-kim
+[16:33:45][DEBUG](BoardService.java:161)-kim
+[16:34:06][DEBUG](BoardService.java:161)-kim
+[16:47:06][DEBUG](LoginDao.java:27)-kim
+[16:47:06][DEBUG](LoginDao.java:28)-kim123
+[16:47:06][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:47:16][DEBUG](BoardService.java:161)-kim
+[16:47:20][DEBUG](BoardService.java:161)-kim
+[16:47:20][DEBUG](BoardService.java:134)-1
+[16:47:23][DEBUG](BoardService.java:161)-hong
+[16:47:23][DEBUG](BoardService.java:190)-1
+[16:47:25][DEBUG](BoardService.java:161)-hong
+[16:47:29][DEBUG](BoardService.java:161)-hong
+[16:47:29][DEBUG](BoardService.java:190)-1
+[17:27:14][DEBUG](LoginDao.java:27)-kim
+[17:27:14][DEBUG](LoginDao.java:28)-kim123
+[17:27:14][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[17:27:19][DEBUG](BoardService.java:161)-kim
+[17:27:21][DEBUG](BoardService.java:161)-kim
+[17:27:29][DEBUG](BoardService.java:161)-hong
+[17:27:29][DEBUG](BoardService.java:190)-1
+[17:27:34][DEBUG](BoardService.java:161)-kim
+[17:28:28][DEBUG](LoginDao.java:27)-kim
+[17:28:28][DEBUG](LoginDao.java:28)-kim123
+[17:28:28][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[17:28:31][DEBUG](BoardService.java:161)-kim
+[17:30:32][DEBUG](LoginDao.java:27)-kim
+[17:30:32][DEBUG](LoginDao.java:28)-kim123
+[17:30:32][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[17:30:36][DEBUG](BoardService.java:161)-kim
+[17:31:14][DEBUG](BoardService.java:161)-kim
+[17:31:15][DEBUG](BoardService.java:161)-kim
+[17:31:15][DEBUG](BoardService.java:161)-kim
+[17:31:15][DEBUG](BoardService.java:161)-kim
+[17:31:57][DEBUG](BoardService.java:161)-kim
+[17:31:58][DEBUG](BoardService.java:161)-kim
+[17:34:28][DEBUG](BoardService.java:161)-kim
+[17:34:29][DEBUG](BoardService.java:161)-kim
+[17:34:29][DEBUG](BoardService.java:161)-kim
+[19:50:05][DEBUG](LoginDao.java:27)-kim
+[19:50:05][DEBUG](LoginDao.java:28)-kim123
+[19:50:05][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[19:50:09][DEBUG](BoardService.java:161)-kim
+[19:50:13][DEBUG](BoardService.java:161)-kim

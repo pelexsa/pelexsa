@@ -1,0 +1,138 @@
+[00:03:45][DEBUG](LoginDao.java:27)-kim
+[00:03:45][DEBUG](LoginDao.java:28)-kim123
+[00:03:45][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[00:04:14][DEBUG](LoginDao.java:27)-kim
+[00:04:14][DEBUG](LoginDao.java:28)-kim123
+[00:04:14][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[00:05:10][DEBUG](LoginDao.java:27)-kim
+[00:05:10][DEBUG](LoginDao.java:28)-kim123
+[00:05:10][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[00:07:10][DEBUG](LoginDao.java:27)-kim
+[00:07:10][DEBUG](LoginDao.java:28)-kim123
+[00:07:10][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[00:15:08][DEBUG](LoginDao.java:27)-kim
+[00:15:08][DEBUG](LoginDao.java:28)-kim123
+[00:15:08][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[00:18:17][DEBUG](LoginDao.java:27)-kim
+[00:18:17][DEBUG](LoginDao.java:28)-kim123
+[00:18:17][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[01:12:22][DEBUG](LoginDao.java:27)-kim
+[01:12:22][DEBUG](LoginDao.java:28)-kim123
+[01:12:22][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[01:13:02][DEBUG](LoginDao.java:27)-kim
+[01:13:02][DEBUG](LoginDao.java:28)-kim123
+[01:13:02][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[01:13:40][DEBUG](LoginDao.java:27)-kim
+[01:13:40][DEBUG](LoginDao.java:28)-kim123
+[01:13:40][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[01:15:56][DEBUG](LoginDao.java:27)-kim
+[01:15:56][DEBUG](LoginDao.java:28)-kim123
+[01:15:56][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[01:25:45][DEBUG](LoginDao.java:27)-kim
+[01:25:45][DEBUG](LoginDao.java:28)-kim123
+[01:25:45][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[08:50:55][DEBUG](LoginDao.java:27)-kim
+[08:50:55][DEBUG](LoginDao.java:28)-kim123
+[08:50:55][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[08:55:32][DEBUG](LoginDao.java:27)-kim
+[08:55:32][DEBUG](LoginDao.java:28)-kim123
+[08:55:32][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[08:56:21][DEBUG](LoginDao.java:27)-kim
+[08:56:21][DEBUG](LoginDao.java:28)-kim123
+[08:56:21][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[08:56:50][DEBUG](LoginDao.java:27)-kim
+[08:56:50][DEBUG](LoginDao.java:28)-kim123
+[08:56:50][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[09:08:56][DEBUG](LoginDao.java:27)-kim
+[09:08:56][DEBUG](LoginDao.java:28)-kim123
+[09:08:56][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[09:22:25][DEBUG](LoginDao.java:27)-kim
+[09:22:25][DEBUG](LoginDao.java:28)-kim123
+[09:22:25][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[09:25:49][DEBUG](LoginDao.java:27)-kim
+[09:25:49][DEBUG](LoginDao.java:28)-kim123
+[09:25:49][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[09:29:47][DEBUG](LoginDao.java:27)-kim
+[09:29:47][DEBUG](LoginDao.java:28)-kim123
+[09:29:47][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[09:30:30][DEBUG](LoginDao.java:27)-kim
+[09:30:30][DEBUG](LoginDao.java:28)-kim123
+[09:30:30][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[10:02:08][DEBUG](LoginDao.java:27)-kim
+[10:02:08][DEBUG](LoginDao.java:28)-kim123
+[10:02:08][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[10:10:10][DEBUG](LoginDao.java:27)-kim
+[10:10:10][DEBUG](LoginDao.java:28)-kim123
+[10:10:10][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[10:15:21][DEBUG](LoginDao.java:27)-kim
+[10:15:21][DEBUG](LoginDao.java:28)-kim123
+[10:15:21][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[10:19:06][DEBUG](LoginDao.java:27)-kim
+[10:19:06][DEBUG](LoginDao.java:28)-kim123
+[10:19:06][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[10:22:24][DEBUG](LoginDao.java:27)-kim
+[10:22:24][DEBUG](LoginDao.java:28)-kim123
+[10:22:24][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[10:51:16][DEBUG](LoginDao.java:27)-kim
+[10:51:16][DEBUG](LoginDao.java:28)-kim123
+[10:51:16][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[10:51:19][ERROR](BoardDao.java:77)-checkLoginException
+org.postgresql.util.PSQLException: ERROR: operator does not exist: character varying = integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+  Position: 133
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at kr.co.icanman.dao.BoardDao.boardDetailInfo(BoardDao.java:66)
+	at kr.co.icanman.service.BoardService.boardDetailInfo(BoardService.java:30)
+	at org.apache.jsp.boardDetail_jsp._jspService(boardDetail_jsp.java:140)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[10:55:31][DEBUG](LoginDao.java:27)-kim
+[10:55:31][DEBUG](LoginDao.java:28)-kim123
+[10:55:31][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[14:00:04][DEBUG](LoginDao.java:27)-
+[14:00:04][DEBUG](LoginDao.java:28)-
+[14:00:04][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = '' 
+[14:33:53][DEBUG](LoginDao.java:27)-kim
+[14:33:53][DEBUG](LoginDao.java:28)-kim123
+[14:33:53][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[14:39:01][DEBUG](LoginDao.java:27)-kim
+[14:39:01][DEBUG](LoginDao.java:28)-kim123
+[14:39:01][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:26:29][DEBUG](LoginDao.java:27)-kim
+[16:26:29][DEBUG](LoginDao.java:28)-kim123
+[16:26:29][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[17:42:34][DEBUG](LoginDao.java:27)-kim
+[17:42:34][DEBUG](LoginDao.java:28)-kim123
+[17:42:34][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 

@@ -1,0 +1,73 @@
+[11:19:49][DEBUG](LoginDao.java:27)-kim
+[11:19:49][DEBUG](LoginDao.java:28)-kim123
+[11:19:49][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[11:19:57][DEBUG](BoardService.java:164)-kim
+[11:20:02][DEBUG](BoardService.java:164)-kim
+[11:20:59][DEBUG](LoginDao.java:27)-kim
+[11:20:59][DEBUG](LoginDao.java:28)-kim123
+[11:20:59][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[11:21:02][DEBUG](BoardService.java:164)-kim
+[12:04:38][DEBUG](LoginDao.java:27)-kim
+[12:04:38][DEBUG](LoginDao.java:28)-kim123
+[12:04:38][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[12:04:40][DEBUG](BoardService.java:164)-kim
+[12:19:50][DEBUG](LoginDao.java:27)-kim
+[12:19:50][DEBUG](LoginDao.java:28)-kim123
+[12:19:50][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[12:19:54][DEBUG](BoardService.java:164)-kim
+[12:24:16][DEBUG](BoardService.java:164)-kim
+[12:50:41][DEBUG](LoginDao.java:27)-kim
+[12:50:41][DEBUG](LoginDao.java:28)-kim123
+[12:50:41][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[12:51:42][DEBUG](BoardService.java:164)-kim
+[12:56:05][DEBUG](BoardService.java:164)-kim
+[13:46:20][DEBUG](LoginDao.java:27)-kim
+[13:46:20][DEBUG](LoginDao.java:28)-kim123
+[13:46:20][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[13:46:53][DEBUG](BoardService.java:164)-kim
+[13:46:55][DEBUG](BoardService.java:164)-kim
+[16:30:35][DEBUG](LoginDao.java:27)-kim
+[16:30:35][DEBUG](LoginDao.java:28)-kim123
+[16:30:35][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:30:36][DEBUG](LoginDao.java:27)-kim
+[16:30:36][DEBUG](LoginDao.java:28)-kim123
+[16:30:36][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:30:45][DEBUG](LoginDao.java:27)-kim
+[16:30:45][DEBUG](LoginDao.java:28)-kim123
+[16:30:45][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:31:02][DEBUG](LoginDao.java:27)-kim
+[16:31:02][DEBUG](LoginDao.java:28)-kim123
+[16:31:02][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:31:28][DEBUG](LoginDao.java:27)-kim
+[16:31:28][DEBUG](LoginDao.java:28)-kim123
+[16:31:28][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:31:28][DEBUG](LoginDao.java:27)-kim
+[16:31:28][DEBUG](LoginDao.java:28)-kim123
+[16:31:28][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:31:55][DEBUG](LoginDao.java:27)-kim
+[16:31:55][DEBUG](LoginDao.java:28)-kim123
+[16:31:55][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:31:56][DEBUG](LoginDao.java:27)-kim
+[16:31:56][DEBUG](LoginDao.java:28)-kim123
+[16:31:56][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:31:58][DEBUG](LoginDao.java:27)-kim
+[16:31:58][DEBUG](LoginDao.java:28)-kim123
+[16:31:58][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[18:54:32][DEBUG](LoginDao.java:27)-kim
+[18:54:32][DEBUG](LoginDao.java:28)-kim
+[18:54:32][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[18:54:33][DEBUG](LoginDao.java:27)-kim
+[18:54:33][DEBUG](LoginDao.java:28)-kim123
+[18:54:33][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[18:54:48][DEBUG](LoginDao.java:27)-kim
+[18:54:48][DEBUG](LoginDao.java:28)-kim123
+[18:54:48][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[22:27:00][DEBUG](LoginDao.java:27)-kim
+[22:27:00][DEBUG](LoginDao.java:28)-kim123
+[22:27:00][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[23:14:09][DEBUG](LoginDao.java:27)-kim
+[23:14:09][DEBUG](LoginDao.java:28)-kim123
+[23:14:09][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[23:15:00][DEBUG](LoginDao.java:27)-kim
+[23:15:00][DEBUG](LoginDao.java:28)-kim123
+[23:15:00][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 

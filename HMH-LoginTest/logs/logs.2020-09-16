@@ -1,0 +1,8 @@
+[14:24:43][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[14:46:45][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:09:15][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:26:24][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'hong' 
+[17:18:38][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'hong' 
+[17:18:46][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[17:23:03][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[17:23:30][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 

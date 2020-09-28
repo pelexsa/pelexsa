@@ -1,0 +1,354 @@
+[10:53:01][DEBUG](LoginDao.java:28)-kim
+[10:53:01][DEBUG](LoginDao.java:29)-kim123
+[10:53:01][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[10:53:23][DEBUG](LoginDao.java:28)-kim
+[10:53:23][DEBUG](LoginDao.java:29)-kim123
+[10:53:23][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[14:56:30][DEBUG](LoginDao.java:28)-kim
+[14:56:30][DEBUG](LoginDao.java:29)-kim123
+[14:56:30][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[14:56:38][DEBUG](LoginDao.java:28)-hong
+[14:56:38][DEBUG](LoginDao.java:29)-hong123
+[14:56:38][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'hong' 
+[14:56:43][DEBUG](LoginDao.java:28)-hong
+[14:56:43][DEBUG](LoginDao.java:29)-hong123
+[14:56:43][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'hong' 
+[14:56:50][DEBUG](LoginDao.java:28)-kim
+[14:56:50][DEBUG](LoginDao.java:29)-hong123
+[14:56:50][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[15:14:27][DEBUG](LoginDao.java:28)-hong
+[15:14:27][DEBUG](LoginDao.java:29)-hong123
+[15:14:27][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'hong' 
+[15:16:24][DEBUG](LoginDao.java:28)-hong
+[15:16:24][DEBUG](LoginDao.java:29)-hong123
+[15:16:24][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'hong' 
+[15:16:24][DEBUG](LoginDao.java:28)-
+[15:16:24][DEBUG](LoginDao.java:29)-
+[15:16:24][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = NULL 
+[15:16:40][DEBUG](LoginDao.java:28)-hong
+[15:16:40][DEBUG](LoginDao.java:29)-hong123
+[15:16:40][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'hong' 
+[15:17:34][DEBUG](LoginDao.java:28)-hong
+[15:17:34][DEBUG](LoginDao.java:29)-hong123
+[15:17:34][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'hong' 
+[15:18:50][DEBUG](LoginDao.java:28)-hong
+[15:18:50][DEBUG](LoginDao.java:29)-hong123
+[15:18:50][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'hong' 
+[15:19:21][DEBUG](LoginDao.java:28)-hong
+[15:19:21][DEBUG](LoginDao.java:29)-hong123
+[15:19:21][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'hong' 
+[15:19:26][DEBUG](LoginDao.java:28)-park 
+[15:19:26][DEBUG](LoginDao.java:29)-pkar123
+[15:19:26][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'park ' 
+[15:19:39][DEBUG](LoginDao.java:28)-hong
+[15:19:39][DEBUG](LoginDao.java:29)-123
+[15:19:39][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'hong' 
+[15:19:42][DEBUG](LoginDao.java:28)-kim
+[15:19:42][DEBUG](LoginDao.java:29)-12
+[15:19:42][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:04:34][DEBUG](LoginDao.java:28)-kim
+[16:04:34][DEBUG](LoginDao.java:29)-kim123
+[16:04:34][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:04:34][ERROR](LoginDao.java:40)-checkLoginException
+org.postgresql.util.PSQLException: The column name userid was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+	at kr.co.icanman.login.dao.LoginDao.checkLogin(LoginDao.java:32)
+	at kr.co.icanman.login.service.LoginService.viewChangeLogic(LoginService.java:31)
+	at kr.co.icanman.login.service.LoginService.viewChange(LoginService.java:21)
+	at org.apache.jsp.controller_jsp._jspService(controller_jsp.java:153)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[16:04:34][ERROR](LoginService.java:60)-viewChangeException
+org.postgresql.util.PSQLException: The column name userid was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+	at kr.co.icanman.login.dao.LoginDao.checkLogin(LoginDao.java:32)
+	at kr.co.icanman.login.service.LoginService.viewChangeLogic(LoginService.java:31)
+	at kr.co.icanman.login.service.LoginService.viewChange(LoginService.java:21)
+	at org.apache.jsp.controller_jsp._jspService(controller_jsp.java:153)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[16:12:38][DEBUG](LoginDao.java:28)-kim
+[16:12:38][DEBUG](LoginDao.java:29)-kim123
+[16:12:38][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:12:38][ERROR](LoginDao.java:41)-checkLoginException
+org.postgresql.util.PSQLException: The column name userid was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+	at kr.co.icanman.login.dao.LoginDao.checkLogin(LoginDao.java:32)
+	at kr.co.icanman.login.service.LoginService.viewChangeLogic(LoginService.java:31)
+	at kr.co.icanman.login.service.LoginService.viewChange(LoginService.java:21)
+	at org.apache.jsp.controller_jsp._jspService(controller_jsp.java:153)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[16:12:38][ERROR](LoginService.java:60)-viewChangeException
+org.postgresql.util.PSQLException: The column name userid was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+	at kr.co.icanman.login.dao.LoginDao.checkLogin(LoginDao.java:32)
+	at kr.co.icanman.login.service.LoginService.viewChangeLogic(LoginService.java:31)
+	at kr.co.icanman.login.service.LoginService.viewChange(LoginService.java:21)
+	at org.apache.jsp.controller_jsp._jspService(controller_jsp.java:153)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[16:14:46][DEBUG](LoginDao.java:28)-kim
+[16:14:46][DEBUG](LoginDao.java:29)-kim123
+[16:14:46][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:14:46][ERROR](LoginDao.java:40)-checkLoginException
+org.postgresql.util.PSQLException: The column name userid was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+	at kr.co.icanman.login.dao.LoginDao.checkLogin(LoginDao.java:32)
+	at kr.co.icanman.login.service.LoginService.viewChangeLogic(LoginService.java:31)
+	at kr.co.icanman.login.service.LoginService.viewChange(LoginService.java:21)
+	at org.apache.jsp.controller_jsp._jspService(controller_jsp.java:153)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[16:14:46][ERROR](LoginService.java:60)-viewChangeException
+org.postgresql.util.PSQLException: The column name userid was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+	at kr.co.icanman.login.dao.LoginDao.checkLogin(LoginDao.java:32)
+	at kr.co.icanman.login.service.LoginService.viewChangeLogic(LoginService.java:31)
+	at kr.co.icanman.login.service.LoginService.viewChange(LoginService.java:21)
+	at org.apache.jsp.controller_jsp._jspService(controller_jsp.java:153)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[16:18:44][DEBUG](LoginDao.java:29)-kim
+[16:18:44][DEBUG](LoginDao.java:30)-kim123
+[16:18:44][DEBUG](LoginDao.java:31)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:18:44][ERROR](LoginDao.java:42)-checkLoginException
+org.postgresql.util.PSQLException: The column name userid was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+	at kr.co.icanman.login.dao.LoginDao.checkLogin(LoginDao.java:33)
+	at kr.co.icanman.login.service.LoginService.viewChangeLogic(LoginService.java:31)
+	at kr.co.icanman.login.service.LoginService.viewChange(LoginService.java:21)
+	at org.apache.jsp.controller_jsp._jspService(controller_jsp.java:153)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[16:18:44][ERROR](LoginService.java:60)-viewChangeException
+org.postgresql.util.PSQLException: The column name userid was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+	at kr.co.icanman.login.dao.LoginDao.checkLogin(LoginDao.java:33)
+	at kr.co.icanman.login.service.LoginService.viewChangeLogic(LoginService.java:31)
+	at kr.co.icanman.login.service.LoginService.viewChange(LoginService.java:21)
+	at org.apache.jsp.controller_jsp._jspService(controller_jsp.java:153)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[16:22:41][DEBUG](LoginDao.java:29)-kim
+[16:22:41][DEBUG](LoginDao.java:30)-kim123
+[16:22:41][DEBUG](LoginDao.java:31)-select userpassword from hmh.userlogin where userid = 'kim' 
+[16:29:36][DEBUG](LoginDao.java:28)-kim
+[16:29:36][DEBUG](LoginDao.java:29)-kim123
+[16:29:36][DEBUG](LoginDao.java:30)-select userpassword from hmh.userlogin where userid = 'kim' 

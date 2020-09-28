@@ -1,0 +1,9 @@
+[00:16:26][DEBUG](LoginDao.java:27)-kim
+[00:16:26][DEBUG](LoginDao.java:28)-kim123
+[00:16:26][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[00:16:28][DEBUG](BoardService.java:161)-kim
+[00:16:41][DEBUG](BoardService.java:161)-kim
+[00:19:56][DEBUG](LoginDao.java:27)-kim
+[00:19:56][DEBUG](LoginDao.java:28)-kim123
+[00:19:56][DEBUG](LoginDao.java:29)-select userpassword from hmh.userlogin where userid = 'kim' 
+[00:19:59][DEBUG](BoardService.java:161)-kim
