@@ -42,6 +42,7 @@ List<CommentVo> userCommentList = (List<CommentVo>) request.getAttribute("userCo
 %>
 </head>
 <body>
+<div class="container">
 	<h1 id="boardDetailtitle">게시판 디테일 보기</h1>
 	<table class="table">
 		<thead>
@@ -61,18 +62,18 @@ List<CommentVo> userCommentList = (List<CommentVo>) request.getAttribute("userCo
 						rows="20" readonly="readonly"><%=boardDetailInfo.getBoardContent()%></textarea></td>
 			</tr>
 			<tr>
-				<td><input class="btn btn-default" type="button" value="목록"
-					onclick="location.href='boardController.jsp?command=boardList'" /></td>
-				<td><input class="btn btn-default" type="button" value="수정"
-					onclick="location.href='boardController.jsp?command=boardUpdateForm&boardNo=<%=boardNo%>'" /></td>
-				<td><input class="btn btn-default" type="button" value="삭제"
-					onclick="location.href='boardController.jsp?command=boardDelete&boardNo=<%=boardNo%>'" /></td>
-				<td><input class="btn btn-default" type="button" value="답글"
+				<td colspan="4"><input class="btn btn-default" type="button" value="목록"
+					onclick="location.href='boardController.jsp?command=boardList'" />
+				<input class="btn btn-default" type="button" value="수정"
+					onclick="location.href='boardController.jsp?command=boardUpdateForm&boardNo=<%=boardNo%>'" />
+				<input class="btn btn-default" type="button" value="삭제"
+					onclick="location.href='boardController.jsp?command=boardDelete&boardNo=<%=boardNo%>'" />
+				<input class="btn btn-default" type="button" value="답글"
 					onclick="location.href='boardReplyInsert.jsp?command=boardReplyInsert&boardNo=<%=boardNo%>'" /></td>
 			</tr>
 		</tbody>
 	</table>
+</div>
 
-	<div></div>
 </body>
 </html>

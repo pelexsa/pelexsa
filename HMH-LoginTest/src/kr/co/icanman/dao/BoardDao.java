@@ -21,7 +21,7 @@ public class BoardDao {
 		String SQL = "select (row_number() over(order by boarddate desc)) as rownum,userID,boardNo,boardTitle,boardContent\r\n" + 
 				",boardDate,boardHit,boardGroup,boardSequence,boardLevel \r\n" + 
 				"from hmh.userboardtest\r\n" + 
-				"order by boardGroup desc, boardsequence asc;";
+				"order by boardGroup desc, boardsequence asc";
 		PreparedStatement pstm = null;
 		ResultSet rs = null;
 		List<BoardVo> list = null;
@@ -54,6 +54,26 @@ public class BoardDao {
 		}
 		return list;
 	}
+	
+	// 페이징 다음 글 있는지 확인
+//	public int nextPage(Connection con, String pageNumber) throws SQLException {
+//		String SQL = "update hmh.userboardtest set boardhit = boardhit+1 where boardno=?";
+//		PreparedStatement pstm = null;
+//		int boardcountIncrease = 0;
+//
+//		try {
+//			pstm = con.prepareStatement(SQL);
+//			pstm.setInt(1, boardNo);
+//			boardcountIncrease = pstm.executeUpdate();
+//
+//		} catch (SQLException e) {
+//			logger.error("boardcountIncreaseException", e);
+//			throw (e);
+//		} finally {
+//			pstm.close();
+//		}
+//		return boardcountIncrease;
+//	}
 
 	// 게시물 하나 출력
 	public BoardVo boardDetailInfo(Connection con, int boardNo) throws SQLException {
@@ -227,7 +247,7 @@ public class BoardDao {
 		}
 		return boardcountIncrease;
 	}
-
+	
 	// 게시물 댓글 출력
 	public List<CommentVo> getuserCommentList(Connection con, int boardNo) throws SQLException {
 		String SQL = "select l.username,commentno,boardcomment,dept \r\n" + "from hmh.usercomment c \r\n"

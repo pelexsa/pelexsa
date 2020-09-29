@@ -76,7 +76,15 @@ th {
 			<tr>
 				<td><%=boardList.getRownum() %></td>
 				<td><%=boardList.getUserID()%></td>
-				<td><a href=boardController.jsp?command=boardDetail&boardNo=<%=boardList.getBoardNo()%>><%=boardList.getBoardTitle()%></a></td>
+				<td>
+				<%
+				for(int i=0; i<boardList.getBoardLevel(); i++){
+				%>
+					<span class="glyphicon glyphicon-arrow-right"></span>
+				<%	
+				}
+				%>
+				<a href=boardController.jsp?command=boardDetail&boardNo=<%=boardList.getBoardNo()%>><%=boardList.getBoardTitle()%></a></td>
 				<td><%=boardList.getBoardDate()%></td>
 				<td><%=boardList.getBoardHit()%></td>
 			</tr>

@@ -14,11 +14,14 @@
 <style type="text/css">
 input, textarea, select {
 	text-align: center;
-	width: 100%;
+	width: 100%; 
 }
 
 h1 {
 	text-align: center;
+}
+.container{
+	
 }
 </style>
 <link rel="stylesheet"
@@ -27,6 +30,7 @@ h1 {
 	src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
+	<div class="container">
 	<div>
 		<h1>아이캔 매니지먼트 로그인</h1>
 	</div>
@@ -44,5 +48,6 @@ h1 {
 		</div>
 		<input class="btn btn-default" type="submit" value="로그인" />
 	</form>
+	</div>
 </body>
 </html>
