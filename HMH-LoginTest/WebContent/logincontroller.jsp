@@ -36,10 +36,13 @@
 				session.setAttribute("userInfo", loginVo);
 				response.sendRedirect(request.getContextPath() + "/boardController.jsp?command="+ "boardList");
 			} else if (logincheck.equals("false")) {
+				session.setAttribute("message", "아이디 비밀번호를 확인해주세요 5회 이상 실패시 제한됩니다.");
 				response.sendRedirect(request.getContextPath() + "/login.jsp");
 			} else if (logincheck.equals("ban")) {
+				session.setAttribute("message", "5회 이상 실패로 제한되었습니다.");
 				response.sendRedirect(request.getContextPath() + "/login.jsp");
 			} else {
+				session.setAttribute("message", "관리자에게 문의 부탁드립니다.");
 				response.sendRedirect(request.getContextPath() + "/login.jsp");
 			}
 		}

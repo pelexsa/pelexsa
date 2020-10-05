@@ -24,10 +24,20 @@ h1 {
 	
 }
 </style>
+<%
+	String message = (String)session.getAttribute("message");
+%>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
 <script type="text/javascript"
 	src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript">
+	let msg='<%=message%>';
+	
+	if(msg != 'null'){
+		alert(msg);
+	}
+</script>
 </head>
 <body>
 	<div class="container">

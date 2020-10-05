@@ -102,11 +102,13 @@ public class BoardService {
 		Connection con = null;
 		BoardDao dao = null;
 		int boardReply = 0;
+		int ReplyUpdate =0;
 
 		try {
 			con = getConnection();
 			dao = new BoardDao();
 			boardReply = dao.boardReply(con, boardtitle, boardContent, userid, parentVo);
+			ReplyUpdate = dao.ReplyUpdate(con, parentVo);
 			logger.debug(boardtitle+"<-boardtitle");
 			logger.debug(boardContent+"<-boardContent");
 			logger.debug(userid+"<-userid");

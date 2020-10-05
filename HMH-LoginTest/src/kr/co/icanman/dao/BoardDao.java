@@ -18,7 +18,7 @@ public class BoardDao {
 
 	// 게시물 전체 출력
 	public List<BoardVo> boardListAll(Connection con) throws SQLException {
-		String SQL = "select (row_number() over(order by boarddate desc)) as rownum,userID,boardNo,boardTitle,boardContent\r\n" + 
+		String SQL = "select (row_number() over(order by boardGroup desc,boardsequence asc)) as rownum,userID,boardNo,boardTitle,boardContent\r\n" + 
 				",boardDate,boardHit,boardGroup,boardSequence,boardLevel \r\n" + 
 				"from hmh.userboardtest\r\n" + 
 				"order by boardGroup desc, boardsequence asc";
@@ -160,6 +160,27 @@ public class BoardDao {
 		}
 		return boardWrite;
 	}
+	
+	// 답글 시퀀스 업데이트
+		public int ReplyUpdate (Connection con,BoardVo parentVo) throws SQLException {
+			String SQL = "update hmh.userboardtest set boardsequence=boardsequence+1 where boardgroup = ? and boardsequence > ?";
+			PreparedStatement pstm = null;
+			int result = 0;
+
+			try {
+				pstm = con.prepareStatement(SQL);
+				pstm.setInt(1, parentVo.getBoardGroup());
+				pstm.setInt(2, parentVo.getBoardSequence());
+				result = pstm.executeUpdate();
+
+			} catch (SQLException e) {
+				logger.error("boardUpdateException", e);
+				throw (e);
+			} finally {
+				pstm.close();
+			}
+			return result;
+		}
 
 	// 게시물 수정
 	public int boardUpdate(Connection con, String boardtitle, String boardContent, int boardNo) throws SQLException {
